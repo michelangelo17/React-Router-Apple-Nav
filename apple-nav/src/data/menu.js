@@ -1,7 +1,7 @@
 export const menu = [
   {
     name: 'Apple',
-    id: 'Apple'
+    id: 'Apple',
   },
   {
     name: 'Mac',
@@ -9,41 +9,41 @@ export const menu = [
     subMenu: [
       {
         name: 'MacBook Air',
-        id: 'MacBook-Air'
+        id: 'MacBook-Air',
       },
       {
         name: 'MacBook Pro',
-        id: 'MacBook-Pro'
+        id: 'MacBook-Pro',
       },
       {
         name: 'iMac',
-        id: 'iMac'
+        id: 'iMac',
       },
       {
         name: 'iMac Pro',
-        id: 'iMac-Pro'
+        id: 'iMac-Pro',
       },
       {
         name: 'Mac Pro',
-        id: 'Mac-Pro'
+        id: 'Mac-Pro',
       },
       {
         name: 'Mac mini',
-        id: 'Mac-mini'
+        id: 'Mac-mini',
       },
       {
         name: 'Compare',
-        id: 'Compare'
+        id: 'Compare',
       },
       {
         name: 'Pro Display XDR',
-        id: 'Pro-Display-XDR'
+        id: 'Pro-Display-XDR',
       },
       {
         name: 'Catalina',
         id: 'Catalina',
-      }
-    ]
+      },
+    ],
   },
   {
     name: 'iPad',
@@ -51,45 +51,45 @@ export const menu = [
     subMenu: [
       {
         name: 'iPad Pro',
-        id: 'iPad-Pro'
+        id: 'iPad-Pro',
       },
       {
         name: 'iPad Air',
-        id: 'iPad-Air'
+        id: 'iPad-Air',
       },
       {
         name: 'iPad',
-        id: 'iPad'
+        id: 'iPad',
       },
       {
         name: 'iPad mini',
-        id: 'iPad-mini'
+        id: 'iPad-mini',
       },
       {
         name: 'Compare',
-        id: 'Compare'
+        id: 'Compare',
       },
       {
         name: 'Apple Pencil',
-        id: 'Apple-Pencil'
+        id: 'Apple-Pencil',
       },
       {
         name: 'Smart Keyboard',
-        id: 'Smart-Keyboard'
+        id: 'Smart-Keyboard',
       },
       {
         name: 'AirPods',
-        id: 'AirPods'
+        id: 'AirPods',
       },
       {
         name: 'Accessories',
-        id: 'Accessories'
+        id: 'Accessories',
       },
       {
         name: 'iPadOS',
-        id: 'iPadOS'
+        id: 'iPadOS',
       },
-    ]
+    ],
   },
   {
     name: 'iPhone',
@@ -131,7 +131,7 @@ export const menu = [
         name: 'iOS 13',
         id: 'iOS-13',
       },
-    ]
+    ],
   },
   {
     name: 'Watch',
@@ -177,9 +177,9 @@ export const menu = [
         name: 'watchOS',
         id: 'watchOS',
       },
-    ]
+    ],
   },
-  {    
+  {
     name: 'TV',
     id: 'TV',
     subMenu: [
@@ -207,7 +207,7 @@ export const menu = [
         name: 'Accessories',
         id: 'Accessories',
       },
-    ]
+    ],
   },
   {
     name: 'Music',
@@ -241,7 +241,7 @@ export const menu = [
         name: 'Gift Cards',
         id: 'Gift-Cards',
       },
-    ]
+    ],
   },
   {
     name: 'Support',
@@ -254,5 +254,5 @@ export const menu = [
   {
     name: 'Cart',
     id: 'Cart',
-  }
+  },
 ]

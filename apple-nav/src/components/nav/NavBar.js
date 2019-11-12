@@ -5,7 +5,7 @@ import NavItem from './navItem/NavItem'
 const NavBar = props => {
   const menuItems = props.menuItems
   return (
-    <>
+    <div className='top-menu'>
       {menuItems.map(({ name, id }) => (
         <Link to={`/${id}`} key={id}>
           {name}
@@ -15,7 +15,7 @@ const NavBar = props => {
         path='/:id'
         render={props => <NavItem {...props} menuItems={menuItems} />}
       />
-    </>
+    </div>
   )
 }
 

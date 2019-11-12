@@ -9,21 +9,23 @@ const NavItem = props => {
   const subMenu = subMenuName.subMenu
   return (
     <div>
-      {!subMenu
-        ? <div><h1>This is the {subMenuName.name} page!</h1></div>
-        : subMenu.map(({ name, id }) => {
-            return (
-              <Link to={`${props.match.url}/${id}`} key={id}>
-                {name}
-              </Link>
-            )
-          })}
+      {!subMenu ? (
+        <div>
+          <h1>This is the {subMenuName.name} page!</h1>
+        </div>
+      ) : (
+        subMenu.map(({ name, id }) => {
+          return (
+            <Link to={`${props.match.url}/${id}`} key={id}>
+              {name}
+            </Link>
+          )
+        })
+      )}
 
-      <Route 
+      <Route
         path={`${props.match.path}/:id`}
-        render={props => (
-          <SubNavItem {...props} menuItems={subMenu} />
-        )}
+        render={props => <SubNavItem {...props} menuItems={subMenu} />}
       />
     </div>
   )
