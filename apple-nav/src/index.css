@@ -1,0 +1,10 @@
+.NavWrapper {
+  display: flex;
+  justify-content: space-around;
+}
+
+a {
+  margin: 10px 10px;
+  color: darkslategrey;
+  text-decoration: none;
+}
